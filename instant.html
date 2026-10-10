@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grocery Store</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f1fff1;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background-color: green;
+            color: white;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: lightgreen;
+            padding: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 15px;
+            color: black;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 30px;
+        }
+
+        .item {
+            background-color: white;
+            border: 1px solid green;
+            padding: 20px;
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: green;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Fresh Grocery Store</h1>
+        <p>Fresh Food, Healthy Life!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <h2>Our Products</h2>
+
+    <div class="products" id="products">
+
+        <div class="item">
+            <h2>🍎</h2>
+            <h3>Apple</h3>
+            <p>₹100 / kg</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <h2>🍌</h2>
+            <h3>Banana</h3>
+            <p>₹40 / dozen</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <h2>🥕</h2>
+            <h3>Carrot</h3>
+            <p>₹50 / kg</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+    <footer id="contact">
+        <p>Contact: grocery@gmail.com</p>
+        <p>© 2026 Grocery Store</p>
+    </footer>
+
+</body>
+</html>
